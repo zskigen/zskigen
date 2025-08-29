@@ -26,7 +26,7 @@
   - Directed independent research on the **Automated Ball-Strike Challenge System (AAA level)**.  
   - Built SQL + Python pipelines (BigQuery, nested CTEs, window functions) to compute **per-pitch challenge run values** and estimate opportunity cost ($L$).  
 
-- **Biomechanical Drivers of Pitch Velocity (2023)**  
+- **Biomechanical Drivers of Pitch Velocity (2024)**  
   - Analyzed **Driveline OpenBiomechanics** and TrackMan datasets to identify biomechanical predictors of velocity.  
   - Built nonlinear models (XGBoost) with tuned CV, achieving **~2–3 mph prediction error**.  
   - Applied feature importance analysis to study **energy transfer through the pitching kinetic chain**.  
