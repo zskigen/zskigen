@@ -6,7 +6,7 @@
 
 ---
 
-## Current Projects
+## 📁 Current Projects
 
 - **Senior Thesis (2025–26): Bayesian Joint Modeling of Pain and Depression**  
   - Developing a hierarchical Bayesian framework to jointly model **chronic pain and depression outcomes** in transgender healthcare.  
