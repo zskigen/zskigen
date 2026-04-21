@@ -6,35 +6,42 @@
 
 ## Current Projects
 
-### Senior Thesis (2025–26)  
-**Inference Without Data: Bayesian Causal Transportability**
-
-This thesis develops a Bayesian and causal framework for estimating treatment effects
-when no joint treatment–outcome dataset exists.
-
-- Estimating the transported effect of **ketamine on chronic pain and depression** in
-  **transgender and gender-diverse (TGD) adults** using causal data fusion.
-- Formalizing identification via **Pearl’s transportability theory**, **selection
-  diagrams**, and **S-admissibility**.
-- Deriving an explicit **transport formula** combining source-study treatment response
-  surfaces with the target population’s covariate distribution.
-- Constructing a **joint hierarchical Bayesian generative model** consistent with the
-  transportability identity.
-- Developing a **simulation framework** calibrated to published summary statistics to
-  study identifiability, posterior uncertainty, and sensitivity to unobserved joint
-  dependence.
-- Analyzing **posterior contraction and shrinkage behavior** under partial
-  identification, without claiming real-world clinical effect estimates.
+# Inference Without Data
+### A Causal Transportability Framework for Ketamine Effects in TGD Populations
+ 
+---
+ 
+## Overview
+ 
+This thesis develops a causal data fusion framework for estimating treatment effects when the target population is absent from existing clinical trials. The central challenge: estimating the effect of ketamine on chronic pain and depression in transgender and gender-diverse (TGD) adults using two incompatible published sources: a ketamine cohort with no TGD participants, and an epidemiologic study of TGD adults with no treatment exposure.
+ 
+---
+ 
+## Contributions
+ 
+**Causal Identification**  
+Formalizes identification via Pearl's transportability theory, selection diagrams, and S-admissibility, establishing that the ketamine response mechanism is invariant across populations conditional on shared baseline covariates. Derives an explicit transport formula expressing the target interventional distribution as a mixture of source-study response surfaces weighted by the TGD covariate distribution.
+ 
+**Joint Outcome Modeling**  
+Motivates joint modeling of pain and depression through a statistical account of both outcomes as coupled Bayesian inference processes, explaining why baseline severity carries substantive predictive weight rather than functioning as a nuisance covariate.
+ 
+**Constrained Prior Predictive Inference**  
+Derives an anchor constraint tying the response surface intercept to published source means and characterizes remaining uncertainty via a constrained prior predictive Monte Carlo procedure.
+ 
+**Sensitivity Analysis**  
+Conducts sensitivity analyses revealing that the available data cannot support a transport adjustment — the transported estimate is nearly identical to the source mean response across the full range of prior assumptions tested.
+ 
+---
 
 
 ### Data Science Capstone (2025–26)  
 **Cloud-Based Baseball Analytics Infrastructure**
 
-Designing an end-to-end analytics system for pitch-level tracking data.
+Designed end-to-end analytics system for pitch-level tracking data.
 
-- Building Python ETL pipelines to ingest tracking APIs into **PostgreSQL**.
-- Developing reproducible **SQL + Python** reporting workflows with CI.
-- Automating statistical summaries for pitch- and game-level analysis.
+- Built Python ETL pipelines to ingest tracking APIs into **PostgreSQL**.
+- Developed reproducible **SQL + Python** reporting workflows with CI.
+- Automated statistical summaries for pitch- and game-level analysis.
 - Prototyping **Streamlit** tools for interactive visualization and model diagnostics.
 
 ---
