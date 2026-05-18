@@ -1,6 +1,6 @@
 # Hi there :) I'm Z (they/them)
 
-I'm a recent Pomona College Mathematics graduate and an incoming graduate student at UC Berkeley, pursuing a masters degree in Statistics and Data Science. I'm interested in Bayesian and causal inference, probabilistic modeling, and applied, computational statistics, with applied work in healthcare and baseball analytics.
+I'm a recent Pomona College Mathematics graduate and an incoming graduate student at UC Berkeley, pursuing a master's degree in Statistics and Data Science. I'm interested in Bayesian and causal inference, probabilistic modeling, and applied, computational statistics, with applied work in healthcare and baseball analytics.
 
 ---
 
