@@ -12,7 +12,7 @@ Conducted independent research on the Automated Ball-Strike (ABS) Challenge Syst
 
 **Senior Thesis: Inference Without Data: A Causal Transportability Framework for Ketamine Effects in Transgender and Gender-Diverse Populations** (2025–26)  
 
-Explored Multinomial Hidden Markov models that represent pain Bayesian probablistically; Data Fusion of two separate datasets, computed the expected change in pain and depression that would be observed if the ketamine protocol from the source cohort were administered to a randomly drawn member of the TGD target population using Markov Chain Monte Carlo
+Developed a causal data fusion framework for estimating ketamine's effects on pain and depression in transgender and gender-diverse (TGD) populations absent from existing trials. Applied Pearl's transportability theory and do-calculus to establish identifiability from two incompatible published sources: a ketamine cohort in a cisgender sample and an epidemiologic study of TGD patients with no treatment exposure. Derived an anchor constraint tying the response surface intercept to published source means, then characterized transported estimates via a constrained prior predictive Monte Carlo procedure over the unidentified slope matrix governing baseline-severity-to-response heterogeneity.
 
 **Pomona–Pitzer Baseball Analytics: Co-Director of Analytics & Data Engineering** (2023–2026)  
 
